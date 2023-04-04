@@ -24,7 +24,7 @@ class HomePage extends StatelessWidget {
       ),
       body: ListView(
         children: <Widget>[
-          Image.asset('assets/codelab.png'),
+          Image.asset('assets/yeni-kampus-gisi.jpeg'),
           const SizedBox(height: 8),
           Consumer<ApplicationState>(
             builder: (context, appState, _) =>
